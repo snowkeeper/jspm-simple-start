@@ -9,20 +9,20 @@
 * Events, Socket.io and fetch for data exchange
 
 ## To Sample
-1. `mkdir ~/mySite && cd ~/mySite`
-1. `yarn install jspm-simple-start`  
+1. <kbd>mkdir ~/mySite && cd ~/mySite</kbd>
+1. <kbd>yarn install jspm-simple-start</kbd>  
 2. <kbd>pico index.js</kbd>
 3. <kbd>var start = require('jspm-simple-start')();</kbd>
 4. <kbd>ctrl+x</kbd>
-5. `DEBUG=lodge:* node index.js`  
+5. <kbd>DEBUG=lodge:* node index.js</kbd>  
 
 
 ## To Use
-1. `git clone git@github.com:snowkeeper/jspm-simple-start.git mySite && cd mySite`
-2. `yarn install`
+1. <kbd>git clone git@github.com:snowkeeper/jspm-simple-start.git mySite && cd mySite</kbd>
+2. <kbd>yarn install</kbd>
 3. Build javascript  
   * For Development  
-    * `gulp`  
+    * <kbd>gulp</kbd>  
   * For Production
-    * `gulp production`
-4. `yarn run start`
+    * <kbd>gulp production</kbd>
+4. <kbd>yarn run start</kbd>

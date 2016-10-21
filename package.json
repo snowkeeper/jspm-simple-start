@@ -1,0 +1,102 @@
+{
+  "name": "jspm-simple-start",
+  "version": "1.0.0",
+  "description": "systemjs, reactjs, hot reload starter pack",
+  "main": "lib/createServer.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "DEBUG=lodge:* node index.js",
+    "install": "jspm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snowkeeper/jspm-simple-start.git"
+  },
+  "author": "snowkeeper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snowkeeper/jspm-simple-start/issues"
+  },
+  "homepage": "https://github.com/snowkeeper/jspm-simple-start#readme",
+  "jspm": {
+    "directories": {
+      "baseURL": "app"
+    },
+    "dependencies": {
+      "capaj/systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader",
+      "classnames": "npm:classnames",
+      "debug": "npm:debug",
+      "es6-promise": "npm:es6-promise",
+      "events": "github:jspm/nodelibs-events",
+      "fetch": "github:github/fetch",
+      "fs": "github:jspm/nodelibs-fs",
+      "history": "npm:history",
+      "lodash": "npm:lodash",
+      "marked": "npm:marked@^0.3.6",
+      "material-ui": "npm:material-ui",
+      "path": "github:jspm/nodelibs-path",
+      "react": "npm:react",
+      "react-dom": "npm:react-dom",
+      "react-router": "npm:react-router",
+      "react-search-bar": "npm:react-search-bar",
+      "react-select": "npm:react-select",
+      "react-tap-event-plugin": "npm:react-tap-event-plugin",
+      "react-tooltip": "npm:react-tooltip",
+      "socket.io-client": "npm:socket.io-client",
+      "striptags": "npm:striptags",
+      "superagent": "npm:superagent",
+      "tinycolor": "github:bgrins/TinyColor",
+      "url": "npm:url",
+      "util": "github:jspm/nodelibs-util"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core",
+      "babel-runtime": "npm:babel-runtime",
+      "core-js": "npm:core-js",
+      "systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader"
+    }
+  },
+  "dependencies": {
+    "async": "",
+    "body-parser": "",
+    "compression": "^1.6.2",
+    "debug": "",
+    "dotenv": "",
+    "errorhandler": "^1.4.3",
+    "express": "",
+    "express-less": "",
+    "express-session": "",
+    "hat": "",
+    "jspm": "",
+    "lodash": "",
+    "method-override": "",
+    "model-transform": "",
+    "moment": "",
+    "morgan": "",
+    "multer": "^1.2.0",
+    "range_check": "^1.4.0",
+    "react": "",
+    "react-dom": "",
+    "react-router": "",
+    "socket.io": "",
+    "superagent": ""
+  },
+  "devDependencies": {
+    "babel": "",
+    "babel-core": "",
+    "babel-loader": "",
+    "chokidar-socket-emitter": "snowkeeper/chokidar-socket-emitter",
+    "fs-extra": "",
+    "gulp": "",
+    "gulp-concat": "",
+    "gulp-nodemon": "",
+    "gulp-util": "",
+    "jade": "",
+    "mocha": "",
+    "osmosis": "",
+    "pm2": "^2.0.18",
+    "system-trace": "",
+    "systemjs-builder": "",
+    "webpack": "^1.13.2"
+  }
+}

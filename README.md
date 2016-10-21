@@ -1,6 +1,5 @@
 # jspm-simple-start
 ### Foundation for a SPA application with SystemJS
-* Yarn
 * JSPM
 * React
   * server rendering

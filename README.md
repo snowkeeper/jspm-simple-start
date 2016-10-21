@@ -10,7 +10,9 @@
 
 ## To Sample
 1. <kbd>mkdir ~/mySite && cd ~/mySite</kbd>
-1. <kbd>yarn install jspm-simple-start</kbd>  
+1. <kbd>yarn install jspm-simple-start</kbd> 
+3. Build javascript  
+  * <kbd>gulp production</kbd> 
 2. <kbd>pico index.js</kbd>
 3. <kbd>var start = require('jspm-simple-start')();</kbd>
 4. <kbd>ctrl+x</kbd>
